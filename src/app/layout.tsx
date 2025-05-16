@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
+import HomePage from "./components/HomePage";
 
 const poppins = Poppins(
   {
@@ -32,10 +33,14 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${poppins.variable} ${keepCalm.variable} bg-[#F4F5F7]  antialiased`}
+        className={`${poppins.variable} ${keepCalm.variable} h-full  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5] `}
       >
         <Header />
-        {children}
+        <HomePage />
+        <main>
+          {children}
+        </main>
+
       </body>
     </html>
   );
