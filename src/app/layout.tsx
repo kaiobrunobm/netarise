@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${poppins.variable} ${keepCalm.variable}  antialiased`}
+        className={`${poppins.variable} ${keepCalm.variable} bg-[#F4F5F7]  antialiased`}
       >
         <Header />
         {children}
