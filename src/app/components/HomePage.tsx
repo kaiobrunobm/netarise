@@ -5,7 +5,7 @@ import logolg from '@/app/public/logo-lg.svg'
 import MediumButton from './buttons/MediumButton'
 export default function HomePage() {
   return (
-    <div className="h-screen flex flex-col md:flex-row items-center pt-12 md:pt-0 gap-5" id="">
+    <div className="h-screen flex flex-col md:flex-row items-center pt-12 md:pt-0 gap-5" id="git Home">
       <Image src={logosm} alt="Netarise logo" width={338} height={313} className='md:hidden w-80 h-72 ' />
 
       <div className='flex flex-col gap-3 mx-6 md:ml-14 md:gap-12 '>
