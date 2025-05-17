@@ -23,17 +23,17 @@ const CompanyLogoData: Array<{ src: any; alt: string }> = [
 
 export default function CompaniesCarousel() {
   return (
-    <div className="container p-5">
-    <div className="flex relative overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+    <div className="p-5">
+    <div className="flex justify-center items-center relative overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
       <motion.div
         transition={{
-          duration: 15,
+          duration: 50,
           ease: 'linear',
           repeat: Infinity,
         }}
         initial={{ translateX: 0 }}
-        animate={{ translateX: '-50%' }}
-        className="flex flex-none gap-16 pr-16"
+        animate={{ translateX: '-25%' }}
+        className="flex items-center flex-none gap-16 pr-16"
       >
         {[...new Array(2)].fill(0).map((_, index) => (
           <React.Fragment key={index}>
@@ -42,7 +42,19 @@ export default function CompaniesCarousel() {
                 key={alt}
                 src={src}
                 alt={alt}
-                className="h-[40%] w-auto flex-none"
+                className="h-[5vh] w-auto flex-none md:h-[10vh]"
+              />
+            ))}
+          </React.Fragment>
+        ))}
+        {[...new Array(2)].fill(0).map((_, index) => (
+          <React.Fragment key={index}>
+            {CompanyLogoData.map(({ src, alt }) => (
+              <Image
+                key={alt}
+                src={src}
+                alt={alt}
+                className="h-[5vh] w-auto flex-none md:h-[10vh]"
               />
             ))}
           </React.Fragment>
