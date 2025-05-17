@@ -23,7 +23,7 @@ const CompanyLogoData: Array<{ src: any; alt: string }> = [
 
 export default function CompaniesCarousel() {
   return (
-    <div className="p-5">
+    <div className="container p-5">
     <div className="flex justify-center items-center relative overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
       <motion.div
         transition={{
