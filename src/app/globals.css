@@ -55,3 +55,16 @@ body {
   --light-200: #E5E7ED;
   --light-100: #F4F5F7;
 }
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-animation {
+  animation: infinite-scroll 25s linear infinite;
+}

@@ -1,12 +1,10 @@
+import Clients from "./components/Clients";
 
 
 export default function Home() {
   return (
-    <>
-
-      <div className="h-screen flex justify-center items-center bg-[#F4F5F7]" id="Clients">
-        <p>Clientes</p>
-      </div>
+    <div>
+      <Clients />
       <div className=" bg-[#F4F5F7] h-screen flex justify-center items-center" id="Services">
         <p>Serviços</p>
       </div>
@@ -16,6 +14,6 @@ export default function Home() {
       <div className="h-screen flex justify-center items-center bg-[#F4F5F7]" id="Contact">
         <p>Contato</p>
       </div>
-    </>
+    </div>
   );
 }

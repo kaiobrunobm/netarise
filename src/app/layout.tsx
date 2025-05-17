@@ -31,9 +31,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${poppins.variable} ${keepCalm.variable} h-full  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5] `}
+        className={`${poppins.variable} ${keepCalm.variable} h-full  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
       >
         <Header />
         <HomePage />

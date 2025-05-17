@@ -9,10 +9,10 @@ export default function Header() {
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <div className='flex flex-row justify-between items-center sticky top-6 px-6 py-4 mx-4 bg-[#F4F5F7]/50 backdrop-blur-sm rounded-2xl shadow-xl '>
+    <div className="flex flex-row justify-between items-center sticky top-6 px-4 md:px-10 py-4 mx-4 md:mx-10  bg-[#F4F5F7]/50 backdrop-blur-sm rounded-2xl shadow-xl z-100 ">
       <div className='flex flex-row items-center justify-between gap-11
       '>
-        <Link href="/#Home" ><p className='font-display  bg-linear-to-r from-[#1182CD] to-[#000000] bg-clip-text text-transparent duration-300 transition-all ease-in-out hover:to-[#1182CD] hover:from-[#000000] text-xl' >Netarise</p></Link>
+        <Link href="/#Home" ><p className='font-display  bg-linear-to-r from-[#1182CD] to-[#000000] bg-clip-text text-transparent duration-300 transition-all ease-in-out hover:to-[#1182CD] hover:from-[#000000] text-xl cursor-pointer' >Netarise</p></Link>
         <div className='hidden md:flex flex-row gap-4'>
           <TextButton text="Clientes" onClick={() => { setOpen(false) }} href='#Clients' />
           <TextButton text="Serviços" onClick={() => { setOpen(false) }} href='#Services' />
