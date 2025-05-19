@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroui/avatar": "^2.2.15",
+    "@heroui/card": "^2.2.18",
+    "@heroui/popover": "^2.3.19",
+    "@heroui/react": "^2.7.8",
+    "@heroui/system": "^2.4.15",
+    "@heroui/theme": "^2.4.15",
+    "@heroui/user": "^2.2.15",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.12.1",
     "hamburger-react": "^2.5.2",
+    "heroui-cli": "^1.2.3",
     "motion": "^12.12.1",
     "next": "15.3.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

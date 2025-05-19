@@ -42,11 +42,13 @@ const ReviewCarousel: React.FC<CarouselProps> = ({ className, children }) => {
         emblaApi.on("select", onSelect);
     }, [emblaApi, onSelect])
 
+    
+
     return (
 
         <CarouselContext.Provider value={{ embla: emblaApi, selectedIndex}}>
             <div ref={viewportRef} className={`${styles.viewport} w-full overflow-hidden pt-3.5 md:pt-0.5`}>
-                <div className={`${styles.container} flex gap-3`}>
+                <div className={`${styles.container} flex`}>
                     {children}
                 </div>
             </div>
