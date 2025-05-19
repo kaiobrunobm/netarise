@@ -16,7 +16,7 @@ const poppins = Poppins(
 )
 
 const keepCalm = localFont({
-  src: "./public/fonts/keepcalm_medium.ttf",
+  src: "./public/fonts/keepcalm-medium.ttf",
   variable: "--font-keep-calm",
   display: "swap",
 })

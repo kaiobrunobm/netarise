@@ -13,10 +13,10 @@ const Contact: React.FC = () => {
         <div className='flex flex-col items-center justify-center gap-32'>
           <div className='flex flex-col items-center justify-center gap-8'>
             <div className='flex flex-col items-center justify-center'>
-              <h3 className='font-body font-bold text-xl w-full text-end px-20 relative bottom-[-30px]'>Onde estamos</h3>
-              <Image src={mapImage} alt='netarise tech location' width={555} height={555} className='w-[485px] h-[485px]' />
+              <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-8'>Onde estamos</h3>
+              <Image src={mapImage} alt='netarise tech location' width={555} height={555} className='w-[395px] h-[395px]' />
             </div>
-            <p className='relative top-[-65px] text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
+            <p className='relative -top-16 text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
           </div>
           <div className='flex flex-col items-center justify-center gap-11 px-8'>
             <p className='font-body text-xl text-center max-w-[348px] text-[#42475D]'>Somos uma startup de soluções em tecnologia focada em entregar inovação, segurança e eficiência para empresas de todos os portes.</p>
