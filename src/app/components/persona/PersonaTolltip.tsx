@@ -11,7 +11,7 @@ import Link from 'next/link';
 export interface SocialLinks {
   linkedin: string,
   instagram?: string,
-  github?: string,
+  github? : string,
   twitter?: string,
 }
 
@@ -40,7 +40,7 @@ const PersonaTolltip: React.FC<PersonaTolltipProps> = ({name, image, username, r
         <div className="flex flex-col items-start justify-center">
           <h4 className="font-body text-base font-medium leading-none">{name}</h4>
           <h5 className="text-small tracking-tight font-light text-[#008EFF]">@{username}</h5>
-          <p className="text-sm text-zinc-500">
+          <p className="text-sm text-zinc-500 ">
       &#40;{role}&#41;
       </p>        </div>
       </div>

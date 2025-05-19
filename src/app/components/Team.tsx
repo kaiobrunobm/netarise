@@ -9,10 +9,10 @@ import douglasProfile from '@/app/public/personas/douglas-profile.jpg'
 
 const Team: React.FC = () => {
  return (
-  <div className="h-full flex flex-col justify-start items-center bg-[#F4F5F7] gap-12" id="Team">
+  <div className="h-full flex flex-col justify-center items-center bg-[#F4F5F7] gap-12 pt-32" id="Team">
         <h2 className='font-display text-2xl'>Nossa equipe</h2>
         <div className='flex flex-col justify-center items-center gap-8 md:flex-row'>
-          <Persona name='Kaio Bruno' image={kaioPersona} profileImage={kaioProfile} username='bmkaiobruno' role='Desenvolvedor web/mobile' links={{
+          <Persona name='Kaio Bruno' image={kaioPersona} profileImage={kaioProfile} username='bmkaiobruno' role='Desenvolvedor ' links={{
             linkedin: 'https://www.linkedin.com/in/bmkaiobruno/',
             instagram: 'https://www.instagram.com/kaiobrunobm/',
             github: 'https://github.com/kaiobrunobm',
