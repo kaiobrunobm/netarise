@@ -7,16 +7,16 @@ import { ArrowDownIcon, WhatsappLogoIcon } from '@phosphor-icons/react';
 import ContactForm from './form/ContactForm';
 const Contact: React.FC = () => {
   return (
-    <div className="h-full flex flex-col justify-start items-center bg-[#F4F5F7] pt-20 gap-8" id="Contact">
+    <div className="h-full flex flex-col justify-center items-center bg-[#F4F5F7] pt-20 gap-8" id="Contact">
       <h2 className='font-display text-4xl'>Entre em contato</h2>
       <div className='py-24 flex flex-col items-center justify-center gap-24'>
         <div className='flex flex-col items-center justify-center gap-32'>
           <div className='flex flex-col items-center justify-center gap-8'>
             <div className='flex flex-col items-center justify-center'>
               <h3 className='font-body font-bold text-xl w-full text-end px-20 relative bottom-[-30px]'>Onde estamos</h3>
-              <Image src={mapImage} alt='netarise tech location' width={555} height={555} className='w-[485px] h-[485px' />
+              <Image src={mapImage} alt='netarise tech location' width={555} height={555} className='w-[485px] h-[485px]' />
             </div>
-            <p className='relative top-[-65px] text-end w-full px-20 font-body font-light text-md'>Sobradinho Bahia - 48925000</p>
+            <p className='relative top-[-65px] text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
           </div>
           <div className='flex flex-col items-center justify-center gap-11 px-8'>
             <p className='font-body text-xl text-center max-w-[348px] text-[#42475D]'>Somos uma startup de soluções em tecnologia focada em entregar inovação, segurança e eficiência para empresas de todos os portes.</p>

@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
-import {HeroUIProvider} from "@heroui/react";
+import { HeroUIProvider } from "@heroui/react";
 
 const poppins = Poppins(
   {
@@ -16,7 +16,7 @@ const poppins = Poppins(
 )
 
 const keepCalm = localFont({
-  src: "./assets/fonts/keepcalm_medium.ttf",
+  src: "./public/fonts/keepcalm_medium.ttf",
   variable: "--font-keep-calm",
   display: "swap",
 })
@@ -37,12 +37,12 @@ export default function RootLayout({
         className={`${poppins.variable} ${keepCalm.variable} h-full  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
       >
         <HeroUIProvider>
-          
-        <Header />
-        <HomePage />
-        <main>
-          {children}
-        </main>
+
+          <Header />
+          <HomePage />
+          <main>
+            {children}
+          </main>
         </HeroUIProvider>
 
       </body>
