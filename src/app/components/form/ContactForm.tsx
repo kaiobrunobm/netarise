@@ -35,14 +35,14 @@ const ContactForm: React.FC = () => {
 
 
   return (
-    <form className='w-full px-8'>
-      <div className='w-full flex flex-col gap-5'>
-        <div className='flex flex-col gap-4'>
+    <form className='w-full px-8 md:flex md:justify-center md:items-center' >
+      <div className='w-full flex flex-col gap-5 md:w-2/3'>
+        <div className='flex flex-col gap-4 md:flex-row'>
           <Input label='Nome' type='text' value={nameState} onChange={handleChangeName} error='' placeholder='Nome' id='name' />
           <Input label='Sobrenome' type='text' value={surnameState} onChange={handleChangeSurname} error='' placeholder='Sobrenome' id='surname' />
         </div>
         <Input label='Email' type='email' value={emailState} onChange={handleChangeEmail} error='' placeholder='Email' id='email' />
-        <Input label='Telefone' type='tel' value={phoneState} onChange={handleChangePhone} error='' placeholder='Telefone' id='phone' />
+        <Input label='Telefone' type='tel' value={phoneState} onChange={handleChangePhone} error='' placeholder='Telefone' id='phone' className='md:w-1/2' />
         <Textfield label='Sua mensagem' value={messageState} onChange={handleChangeMessage} error='' placeholder='Mensagem' id='message' />
         <div className='flex flex-row gap-3 justify-start items-center'>
           <input type='checkbox' id='checkbox' className='w-6 h-6' />

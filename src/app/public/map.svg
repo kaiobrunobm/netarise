@@ -1,9 +1,9 @@
-<svg width="554" height="553" viewBox="0 0 554 553" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="554" height="554" viewBox="0 0 554 554" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d_364_1291)">
-<rect x="52" y="55.5645" width="420" height="420" rx="24" fill="url(#pattern0_364_1291)" shape-rendering="crispEdges"/>
+<rect x="52" y="52" width="420" height="420" rx="24" fill="url(#pattern0_364_1291)" shape-rendering="crispEdges"/>
 </g>
 <g filter="url(#filter1_d_364_1291)">
-<mask id="mask0_364_1291" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="199" y="73" width="127" height="128">
+<mask id="mask0_364_1291" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="199" y="73" width="127" height="127">
 <rect x="199" y="73.5645" width="127" height="127" fill="#D9D9D9"/>
 </mask>
 <g mask="url(#mask0_364_1291)">
@@ -25,7 +25,7 @@
 <pattern id="pattern0_364_1291" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_364_1291" transform="scale(0.0015625)"/>
 </pattern>
-<filter id="filter1_d_364_1291" x="214.467" y="78.4475" width="102.067" height="123.233" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d_364_1291" x="214.467" y="78.4475" width="123" height="123" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="3" dy="3"/>

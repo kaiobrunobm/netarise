@@ -37,7 +37,6 @@ export default function RootLayout({
         className={`${poppins.variable} ${keepCalm.variable} h-full text-[#212740]  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
       >
         <Header />
-        <HomePage />
         <main>
           {children}
         </main>
