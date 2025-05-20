@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import mapImage from '@/app/public/map.svg';
+import mapImagePng from '@/app/public/mapimg.png';
 import MediumButton from './buttons/MediumButton';
 import { ArrowDownIcon, WhatsappLogoIcon } from '@phosphor-icons/react';
 import ContactForm from './form/ContactForm';
@@ -12,9 +13,9 @@ const Contact: React.FC = () => {
       <div className='py-24 flex flex-col items-center justify-center gap-24 bg-linear-to-b from-[#E5E7ED] to-[#DFDDF5] w-full'>
         <div className='flex flex-col items-center justify-center gap-32'>
 
-              <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-8'>Onde estamos</h3>
-              <Image src={mapImage} alt='netarise tech location' width={395} height={395} className='content-center``'/>
-            <p className='relative -top-16 text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
+          <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-8'>Onde estamos</h3>
+          <Image src={mapImagePng} alt='netarise tech location' width={395} height={395} />
+          <p className='relative -top-16 text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
 
           <div className='flex flex-col items-center justify-center gap-11 px-8'>
             <p className='font-body text-xl text-center max-w-[348px] text-[#42475D]'>Somos uma startup de soluções em tecnologia focada em entregar inovação, segurança e eficiência para empresas de todos os portes.</p>
@@ -32,7 +33,7 @@ const Contact: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col items-center justify-start gap-8 py-12'>
+        <div className='w-full flex flex-col items-center justify-start gap-8 py-12'>
           <p className='font-display text-2xl'>Envie uma mensagem</p>
           <ContactForm />
         </div>

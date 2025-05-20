@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import HomePage from "./components/HomePage";
-import { HeroUIProvider } from "@heroui/react";
+import Footer from "./components/Footer";
 
 const poppins = Poppins(
   {
@@ -34,17 +34,14 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${poppins.variable} ${keepCalm.variable} h-full  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
+        className={`${poppins.variable} ${keepCalm.variable} h-full text-[#212740]  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
       >
-        <HeroUIProvider>
-
-          <Header />
-          <HomePage />
-          <main>
-            {children}
-          </main>
-        </HeroUIProvider>
-
+        <Header />
+        <HomePage />
+        <main>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
