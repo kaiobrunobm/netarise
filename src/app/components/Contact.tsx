@@ -9,15 +9,13 @@ const Contact: React.FC = () => {
   return (
     <div className="h-full flex flex-col justify-center items-center bg-[#F4F5F7] pt-20 gap-8" id="Contact">
       <h2 className='font-display text-4xl'>Entre em contato</h2>
-      <div className='py-24 flex flex-col items-center justify-center gap-24'>
+      <div className='py-24 flex flex-col items-center justify-center gap-24 bg-linear-to-b from-[#E5E7ED] to-[#DFDDF5] w-full'>
         <div className='flex flex-col items-center justify-center gap-32'>
-          <div className='flex flex-col items-center justify-center gap-8'>
-            <div className='flex flex-col items-center justify-center'>
+
               <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-8'>Onde estamos</h3>
-              <Image src={mapImage} alt='netarise tech location' width={555} height={555} className='w-[395px] h-[395px]' />
-            </div>
+              <Image src={mapImage} alt='netarise tech location' width={395} height={395} className='content-center``'/>
             <p className='relative -top-16 text-end w-full px-20 font-body font-light text-sm'>Sobradinho Bahia - 48925000</p>
-          </div>
+
           <div className='flex flex-col items-center justify-center gap-11 px-8'>
             <p className='font-body text-xl text-center max-w-[348px] text-[#42475D]'>Somos uma startup de soluções em tecnologia focada em entregar inovação, segurança e eficiência para empresas de todos os portes.</p>
             <p className='font-body text-xl text-center max-w-[348px] text-[#42475D]'>Com uma abordagem moderna e personalizada, atuamos nas áreas de suporte técnico, infraestrutura de rede, desenvolvimento web e mobile, e consultoria em TI. </p>
