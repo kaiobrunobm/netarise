@@ -19,6 +19,7 @@
     "@heroui/theme": "^2.4.15",
     "@heroui/user": "^2.2.15",
     "@phosphor-icons/react": "^2.1.8",
+    "axios": "^1.9.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-class-names": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
