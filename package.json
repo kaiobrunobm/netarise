@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "@heroui/avatar": "^2.2.15",
     "@heroui/card": "^2.2.18",
     "@heroui/form": "^2.1.18",

@@ -3,8 +3,9 @@ import { Poppins } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
-import HomePage from "./components/HomePage";
 import Footer from "./components/Footer";
+import { FormspreeProvider } from '@formspree/react'
+import Providers from "./utils/Providers";
 
 const poppins = Poppins(
   {
@@ -36,11 +37,13 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${keepCalm.variable} h-full text-[#212740]  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
       >
+
         <Header />
         <main>
           {children}
         </main>
         <Footer />
+
       </body>
     </html>
   );

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import mapImage from '@/app/public/map.svg';
 import MediumButton from './buttons/MediumButton';
 import Link from 'next/link';
-import { ArrowDownIcon,  WhatsappLogoIcon } from '@phosphor-icons/react';
+import { ArrowDownIcon, WhatsappLogoIcon } from '@phosphor-icons/react';
 import ContactForm from './form/ContactForm';
 const Contact: React.FC = () => {
   return (
@@ -13,9 +13,9 @@ const Contact: React.FC = () => {
       <div className='py-24 flex flex-col items-center justify-center gap-24 bg-linear-to-b from-[#E5E7ED] to-[#DFDDF5] w-full md:rounded-4xl'>
         <div className='flex flex-col items-center justify-center gap-1 md:flex-row-reverse md:flex-wrap'>
           <div className='flex flex-col items-center justify-center gap-11 px-8'>
-          <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-18 -right-5 md:text-2xl md:-right-4'>Onde estamos</h3>
-          <Image src={mapImage} alt='netarise tech location' width={395} height={395} className='relative left-2 md:w-[420px] md:h-[420px]' />
-          <p className='relative -top-18 -right-3 text-end w-full px-20 font-body font-light text-sm md:text-lg'>Sobradinho Bahia - 48925000</p>
+            <h3 className='font-body font-bold text-xl w-full text-end px-20 relative -bottom-18 -right-5 md:text-2xl md:-right-4'>Onde estamos</h3>
+            <Image src={mapImage} alt='netarise tech location' width={395} height={395} className='relative left-2 md:w-[420px] md:h-[420px]' />
+            <p className='relative -top-18 -right-3 text-end w-full px-20 font-body font-light text-sm md:text-lg'>Sobradinho Bahia - 48925000</p>
           </div>
 
           <div className='flex flex-col items-center justify-center gap-11 px-8 md:items-start'>
@@ -30,8 +30,8 @@ const Contact: React.FC = () => {
                 <WhatsappLogoIcon size={24} />
               </button>
               <Link href='/#Form'>
-              <MediumButton text='Formulario abaixo' icon={<ArrowDownIcon size={24} className='animate-bounce' />} />
-              
+                <MediumButton text='Formulario abaixo' icon={<ArrowDownIcon size={24} className='animate-bounce' />} />
+
               </Link>
             </div>
           </div>
