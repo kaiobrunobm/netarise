@@ -12,7 +12,7 @@ const Services: React.FC = () => {
   return (
     <div className=" bg-[#F4F5F7] h-full flex flex-col gap-6 justify-center items-center px-8 py-16 " id="Services">
       <div className="flex flex-col  gap-6 justify-center items-center bg-[#E5E7ED] w-screen py-12 md:px-16 md:py-24 md:rounded-4xl md:w-auto  ">
-        <h2 className='text-xl font-display px-12 py-4 md:text-5xl'>Nossos serviços</h2>
+        <h2 className='text-xl font-body font-bold px-12 py-4 md:text-5xl'>Nossos serviços</h2>
         <div className='flex flex-col flex-wrap gap-9 px-8 py-8 md:flex-row'>
           <ServiceCard title='Cabeamento Estruturado' description='Confecção, organização  e padronização de cabos de rede, que facilita manutenção, expansão e garante desempenho.' image={cabling} />
           <ServiceCard title='Desenvolvimento de Sistemas' description='Criação de sites e sistemas funcionais, modernos e responsivos, focados na performance e na experiência do usuário.' image={development} />
@@ -21,7 +21,7 @@ const Services: React.FC = () => {
 
         </div>
         <div className='w-full flex justify-center items-center md:justify-end'>
-          <LargeButton text='Nossos serviços' icon={<ArrowUpRightIcon size={32} />} />
+          <LargeButton text='Nossos serviços' formStatus='default' icon={<ArrowUpRightIcon size={32} />} />
         </div>
       </div>
 

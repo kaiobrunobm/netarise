@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <body
-        className={`${poppins.variable} ${keepCalm.variable} h-full text-[#212740]  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]`}
+        className={`${poppins.variable} ${keepCalm.variable} font-body h-full text-[#212740]  bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5] `}
       >
         <Header />
         <main>

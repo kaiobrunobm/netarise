@@ -25,7 +25,7 @@ const HomePage: React.FC = () => {
 
       <div className='flex flex-col gap-12 mx-6 md:ml-14 md:gap-12'>
         <div className='space-y-3'>
-          <h1 className='font-display text-5xl text-center text-[#212740] mx-4 md:mx-0 md:text-6xl md:text-start'>Soluções Para Empresa</h1>
+          <h1 className='font-body text-5xl font-bold text-center text-[#212740] mx-4 md:mx-0 md:text-6xl md:text-start'>Soluções Para Empresa</h1>
           <p className='font-body text-lg  text-center mx-4 md:mx-0 text-[#212740] md:w-[50vw] md:text-2xl md:text-start'>Gestão de TI para empresas que buscam crescimento, inovação e tecnologia.</p>
         </div>
 
