@@ -13,7 +13,7 @@ interface PlanCardProps {
 
 const PlanCard: React.FC<PlanCardProps> = ({planTitle, planDescription, planBenefits, isMostPopular}) => {
   return (
-    <div className={`flex flex-col items-center gap-12 self-stretch rounded-2xl px-14 py-12 bg-white ${isMostPopular && 'outline-[#2B1EBB] outline-4  relative'}`}>
+    <div className={`flex flex-col items-center gap-12 self-stretch rounded-2xl px-10 py-12 bg-white ${isMostPopular && 'outline-[#2B1EBB] outline-4  relative'}`}>
       {isMostPopular && <span className='absolute right-4 text-sm top-4 bg-[#2B1EBB] px-6 py-1.5 text-white rounded-full  '>Popular</span>}
       <div className='flex flex-col items-center gap-6 self-stretch'>
         <div className='flex flex-col items-start gap-1.5 self-stretch text-[#212740]'>
