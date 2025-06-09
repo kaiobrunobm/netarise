@@ -32,10 +32,10 @@ export default function Header() {
   }, []);
 
   return (
-    <div className="flex flex-row justify-between items-center sticky top-6 px-8 md:px-10 py-4 mx-4 md:mx-10  bg-[#F4F5F7]/50 backdrop-blur-sm rounded-2xl shadow-xl z-100">
+    <div className="flex flex-row justify-between items-center sticky top-6 px-8 md:px-10 py-4 mx-4 md:mx-10  bg-[#F4F5F7]/50 backdrop-blur-sm rounded-2xl shadow-xl z-100 ">
       <div className='flex flex-row items-center justify-between gap-11
       '>
-        <Link href="/" onClick={scrollToTop} className='font-display text-italic  bg-linear-to-r from-[#1182CD] to-[#000000] bg-clip-text text-transparent duration-300 transition-all ease-in-out hover:to-[#1182CD] hover:from-[#000000] text-xl cursor-pointer'>NetArise</Link>
+        <Link href="/" onClick={scrollToTop} className='font-display text-italic  bg-linear-to-r from-[#1182CD] to-[#000000] bg-clip-text text-transparent duration-300 transition-all ease-in-out hover:to-[#1182CD] hover:from-[#000000] text-xl font-bold cursor-pointer'>NetArise</Link>
         <div className='hidden md:flex flex-row gap-4'>
           <TextButton text="Clientes" onClick={() => { setOpen(false) }} href='#Clients' />
           <TextButton text="Serviços" onClick={() => { setOpen(false) }} href='#Services' />

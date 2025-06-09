@@ -10,7 +10,7 @@ import facebookIcon from '@/app/public/icons/facebookIcon.svg'
 
 const Footer: React.FC = () => {
   return (
-    <div className='w-full px-16 py-6 bg-[#E5E7ED] flex flex-col items-center justify-center gap-3 md:flex-row md:justify-between md:flex-wrap'>
+    <div className='w-full px-8 py-6 bg-[#E5E7ED] flex flex-col items-center justify-center gap-3 md:flex-row md:justify-between md:flex-wrap'>
       <div className='flex flex-col items-center justify-center gap-3 md:flex-row'>
         <TextButton text='Termos de uso' href='/terms' />
         <TextButton text='Políticas de privacidade' href='/politics' />
