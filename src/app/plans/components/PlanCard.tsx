@@ -3,15 +3,17 @@ import React from 'react';
 
 import LargeButton from '@/app/components/buttons/LargeButton';
 import { CheckIcon } from '@phosphor-icons/react';
+import Link from 'next/link';
 
 interface PlanCardProps {
   planTitle: string;
   planDescription: string;  
   planBenefits: string[];
-  isMostPopular?: boolean
+  isMostPopular?: boolean;
+  contactLink: string;
 }
 
-const PlanCard: React.FC<PlanCardProps> = ({planTitle, planDescription, planBenefits, isMostPopular}) => {
+const PlanCard: React.FC<PlanCardProps> = ({planTitle, planDescription, planBenefits, isMostPopular, contactLink}) => {
   return (
     <div className={`flex flex-col items-center gap-12 self-stretch rounded-2xl px-10 py-12 bg-white ${isMostPopular && 'outline-[#2B1EBB] outline-4  relative'} md:max-w-90 md:px-14`}>
       {isMostPopular && <span className='absolute right-4 text-sm top-4 bg-[#2B1EBB] px-6 py-1.5 text-white rounded-full'>Popular</span>}
@@ -20,7 +22,9 @@ const PlanCard: React.FC<PlanCardProps> = ({planTitle, planDescription, planBene
          <h2 className='font-bold text-2xl md:text-3xl'>{planTitle}</h2>
           <p className='text-[#636363] text-sm md:text-base'>{planDescription}</p>
         </div>
+          <Link href={contactLink} target='_blank'>
             <LargeButton text='Entre em contato' formStatus='default'/>
+          </Link>
       </div>
       <ul className='flex flex-col jusify-start items-start gap-2 pb-32'>
         {planBenefits.map((benefit, index) => {
