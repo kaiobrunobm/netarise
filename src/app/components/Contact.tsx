@@ -23,12 +23,14 @@ const Contact: React.FC = () => {
             <p className='font-body text-xl text-center max-w-[348px]  text-[#42475D] md:max-w-[728px] md:text-start'>Com uma abordagem moderna e personalizada, atuamos nas áreas de suporte técnico, infraestrutura de rede, desenvolvimento web e mobile, e consultoria em TI. </p>
             <p className='font-body text-xl text-center max-w-[348px]  text-[#212740] md:max-w-[728px] md:text-start'>Quer conversar com a gente? Fale conosco por um dos canais de atendimento abaixo. </p>
             <div className='flex flex-col gap-2.5 justify-center items-center md:flex-row'>
+              <Link href='https://api.whatsapp.com/send?phone=5574988287031&text=Gostaria+de+fazer+um+or%C3%A7amento%21&fbclid=PAZXh0bgNhZW0CMTEAAaf9QBmoQGYU6CbBlXDt3eGhLvb5G9CWjlP9z5Ycsfpf9DFE1tk5SIyRTh-87Q_aem_mh31KjuTkiw6qE38YXgWGA' target='_blank'>
               <button
                 className={`flex flex-row justify-center items-center text-[#F4F5F7] duration-300 transition-all ease-in-out bg-[#25D366] hover:bg-[#25D366]/80 active:bg-[#25D366]/60 px-6 py-2.5 font-body text-base font-medium rounded-xl cursor-pointer gap-2.5`}
               >
                 Whatsapp
                 <WhatsappLogoIcon size={24} />
               </button>
+              </Link>
               <Link href='/#Form'>
                 <MediumButton text='Formulario abaixo' icon={<ArrowDownIcon size={24} className='animate-bounce' />} />
               </Link>
