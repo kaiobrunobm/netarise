@@ -7,6 +7,7 @@ import servers from '@/app/public/icons/servers.svg'
 import ServiceCard from './cards/ServiceCard'
 import LargeButton from '@/app/components/buttons/LargeButton'
 import { ArrowUpRightIcon } from '@phosphor-icons/react'
+import Link from 'next/link'
 
 const Services: React.FC = () => {
   return (
@@ -21,7 +22,9 @@ const Services: React.FC = () => {
 
         </div>
         <div className='w-full flex justify-center items-center md:justify-end'>
-          <LargeButton text='Nossos serviços' formStatus='default' icon={<ArrowUpRightIcon size={32} />} />
+          <Link href={'/services'}>
+            <LargeButton text='Nossos serviços' formStatus='default' icon={<ArrowUpRightIcon size={32} />} />
+          </Link>
         </div>
       </div>
 

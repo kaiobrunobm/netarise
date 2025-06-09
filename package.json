@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
+    "@googlemaps/js-api-loader": "^1.16.8",
     "@heroui/avatar": "^2.2.15",
     "@heroui/card": "^2.2.18",
     "@heroui/form": "^2.1.18",
@@ -19,6 +20,7 @@
     "@heroui/theme": "^2.4.15",
     "@heroui/user": "^2.2.15",
     "@phosphor-icons/react": "^2.1.8",
+    "@types/google.maps": "^3.58.1",
     "axios": "^1.9.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-class-names": "^8.6.0",

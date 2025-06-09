@@ -6,7 +6,7 @@ import ReviewCarousel from "./ReviewCarousel";
 export default function Clients() {
   return (
     <div className="h-full w-full flex flex-col justify-center pt-20 items-center bg-[#F4F5F7] z-0 gap-2.5 md:gap-12" id="Clients">
-      <h2 className="font-display text-2xl text-center">Nossos clientes</h2>
+      <h2 className="font-display text-2xl text-center font-bold">Nossos clientes</h2>
       <CompaniesCarousel />
       
       <h3 className="font-body font-extralight text-base md:text-3xl">O que os nossos clientes tem a dizer</h3>
