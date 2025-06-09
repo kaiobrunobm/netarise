@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
     <div className="h-screen flex flex-col items-center pt-12 pb-20 gap-5 md:pt-0 md:flex md:flex-row-reverse sticky top-0 -z-10 justify-center bg-linear-to-bl from-[#B5B0E7] to-[#DFDDF5]" id="Home" ref={refContainer} style={{
       transform: `translateY(-${progress * 20}vh)`
     }}>
-      <Image src={logosm} alt="Netarise logo" width={650} height={650} className='w-80 h-72 md:w-1/2 md:h-auto' />
+      <Image src={logosm} alt="Netarise logo" width={650} height={650} className='w-80 h-72 md:w-2/3 md:h-auto' />
 
       <div className='flex flex-col gap-12 mx-6 md:ml-14 md:gap-12'>
         <div className='space-y-3'>
