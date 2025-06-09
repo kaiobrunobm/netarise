@@ -7,8 +7,8 @@ import Link from 'next/link'
 const Plans: React.FC = () => {
   return (
     <div className='flex flex-col items-center justify-start gap-8 self-stretch h-full pt-32'>
-      <Image src={logo} alt='Logo netarise image' height={350} className='absolute top-48 right-0 rotate-18 z-50 h-72 w-auto md:h-auto md:top-14'/>
-      <h1 className='text-4xl font-bold md:text-6xl'>Planos</h1>
+      <Image src={logo} alt='Logo netarise image' height={350} className='absolute top-48 right-6 rotate-11 z-50 h-72 w-auto md:h-auto md:top-50 md:right-16 opacity-80'/>
+      <h1 className='text-4xl font-bold md:text-6xl z-60'>Planos</h1>
       <div className='flex flex-col justify-center w-full bg-[#F4F5F7]/40 backdrop-blur-lg z-50 py-12 px-4 md:w-auto md:px-24 md:py-24 md:rounded-4xl'>
         <div className='flex flex-col items-start gap-12 xl:flex-row md:justify-center'>
           <PlanCard planTitle='Basico' planDescription='Ideal para pequenos escritorios e autônomos' planBenefits={['1 visita técnica mensal', 'Suporte remoto ilimitado (Horario comercial)', 'Verificação básica de rede', 'Tempo de resposta de até 48h utéis']} />
