@@ -28,7 +28,7 @@ export default function Clients() {
             company="CTO — Spotify AB" />
             <ReviewCard index={5} review="Trabalhar com a NetArise foi uma experiência surpreendentemente fluida. Desde o início, a equipe demonstrou uma compreensão clara das nossas necessidades técnicas e uma atenção impecável aos detalhes de design e performance." 
             author="Elena Bergström" 
-            company="CTO — Spotify AB" />
+            company="CTO — Spotify AB" />±±±±±±±±±±±±±±
 
       </ReviewCarousel>
   </div>

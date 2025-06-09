@@ -23,7 +23,13 @@ const PlanCard: React.FC<PlanCardProps> = ({planTitle, planDescription, planBene
           <p className='text-[#636363] text-sm md:text-base'>{planDescription}</p>
         </div>
           <Link href={contactLink} target='_blank'>
+            {isMostPopular && <button className={` flex flex-row self-stretch items-center justify-center gap-8 px-6 py-4  text-[#F4F5F7] bg-[#2B1EBB] hover:bg-[#2B1EBB]/80 active:bg-[#2B1EBB]/60 active:border-0 rounded-xs font-medium text-lg cursor-pointer transition-all duration-300  ease-in-out`}>
+              Entre em contato
+            </button>}
+
+            {!isMostPopular && 
             <LargeButton text='Entre em contato' formStatus='default'/>
+            }
           </Link>
       </div>
       <ul className='flex flex-col jusify-start items-start gap-2 pb-32'>
