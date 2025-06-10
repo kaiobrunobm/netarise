@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
       <div>
         <div className='flex flex-col items-center justify-center gap-4 md:flex-row'>
           <div className='flex flex-row items-center justify-center gap-6'>
-            <Link href='https://www.linkedin.com/company/netarisetech' target='_blank'>
+            <Link href='https://www.instagram.com/netarisetech?igsh=ZGE1cm52dzQ4MTF0' target='_blank'>
               <Image src={instagramIcon} alt='instagram' width={40} height={40} />
             </Link>
             <Link href='https://www.linkedin.com/company/netarisetech' target='_blank'>
