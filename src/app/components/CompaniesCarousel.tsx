@@ -33,7 +33,7 @@ export default function CompaniesCarousel() {
         }}
         initial={{ translateX: 0 }}
         animate={{ translateX: '-25%' }}
-        className="flex items-center flex-none gap-16 pr-16"
+        className="flex items-center flex-none gap-6 md:gap-16 pr-16"
       >
         {[...new Array(2)].fill(0).map((_, index) => (
           <React.Fragment key={index}>

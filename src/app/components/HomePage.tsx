@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import logosm from '@/app/public/logo-sm.svg'
 import { AnimatePresence, motion } from 'framer-motion'
-import MediumButton from './buttons/MediumButton'
 
 import React, { useState, useRef, useCallback, useContext, useEffect } from 'react'
 import { ScrollContext } from '../utils/scroll-observer'
