@@ -19,16 +19,16 @@ const Footer: React.FC = () => {
       <div>
         <div className='flex flex-col items-center justify-center gap-4 md:flex-row'>
           <div className='flex flex-row items-center justify-center gap-6'>
-            <Link href='https://www.google.com' target='_blank'>
+            <Link href='https://www.linkedin.com/company/netarisetech' target='_blank'>
               <Image src={instagramIcon} alt='instagram' width={40} height={40} />
             </Link>
-            <Link href='https://www.google.com' target='_blank'>
+            <Link href='https://www.linkedin.com/company/netarisetech' target='_blank'>
               <Image src={linkedinIcon} alt='linkedin' width={40} height={40} />
             </Link>
-            <Link href='https://google.com/' target='_blank'>
+            <Link href='https://github.com/netarisetech' target='_blank'>
               <Image src={githubIcon} alt='github' width={40} height={40} />
             </Link>
-            <Link href='https://www.google.com' target='_blank'>
+            <Link href='https://www.facebook.com/people/Net-Arise-Tech/61576352417194/' target='_blank'>
               <Image src={facebookIcon} alt='facebook' width={40} height={40} />
             </Link>
           </div>
